@@ -1,4 +1,4 @@
-<h1 align="center"> LexFortis </h1>
+<h1 align="center"> COUNTER </h1>
 
 <p align="center">
 Este site é um app para contagem.
