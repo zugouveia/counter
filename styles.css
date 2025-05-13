@@ -1,0 +1,76 @@
+body {
+  background-color: #d2d2d2;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+p {
+  font-size: 10rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-weight: 800;
+  border: none;
+}
+
+.number-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin: 50px;
+  font-size: 2rem;
+}
+
+#increment {
+  color: #d2d2d2;
+  background-color: rgb(43, 107, 43);
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+#decrement {
+  color: #d2d2d2;
+  background-color: rgb(150, 53, 53);
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+#reset,
+#save-btn {
+  font-size: 1rem;
+  background-color: rgb(77, 77, 193);
+  color: #d2d2d2;
+  width: 200px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#save-el {
+  font-size: 1rem;
+  width: 50%;
+}
